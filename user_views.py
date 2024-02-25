@@ -9,7 +9,9 @@ def account_view(request):
     request.session['url_tab_latest'] = 'account'
     return render(request, 'account.html')
 
-# 追加してみた２
+# 追2
 
 def edit_account_info_view(request):
     return render(request, edit_account_info_view)
+
+# リモートで直接編集してみたよ
